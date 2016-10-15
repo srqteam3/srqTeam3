@@ -3244,12 +3244,21 @@
 
 /* Intro */
 
+	#intro .logo #mainLogo{
+		border-bottom: 0;
+		display: inline-block;
+		/*margin: 0 0 1em 0;*/
+		/*overflow: hidden;*/
+		position: relative;
+		width: 4em;
+	}
+
 	#intro .logo {
 		border-bottom: 0;
 		display: inline-block;
 		margin: 0 0 1em 0;
-		overflow: hidden;
-		position: relative;
+		 overflow: hidden;
+		 position: relative;
 		width: 4em;
 	}
 
